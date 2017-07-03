@@ -1,0 +1,25 @@
+{
+  "name": "bot-example",
+  "version": "1.0.0",
+  "description": "try bot framework",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyxia/bot-example.git"
+  },
+  "author": "Jinyue Xia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyxia/bot-example/issues"
+  },
+  "homepage": "https://github.com/jyxia/bot-example#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "dotenv": "^4.0.0",
+    "restify": "^5.0.0"
+  }
+}
