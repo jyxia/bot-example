@@ -2,6 +2,7 @@ var restify = require('restify');
 var builder = require('botbuilder');
 var dotenv = require('dotenv');
 
+// This is bot test
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
